@@ -1,0 +1,16 @@
+data/anytrek_forklift/images/train/01FVZIGPUGWI_jpg.rf.aba0f700dd5dbecf27af2f25d719b757.jpg
+data/anytrek_forklift/images/train/20260527_073116_af65de1d7b27fc67bcac55f87f4c1f54.jpg
+data/anytrek_forklift/images/train/20260527_080453_553289f7c187588846842d4092f05cca.jpg
+data/anytrek_forklift/images/train/20260527_084444_fc6da4bf582ab8c9b61dafd9c309b2d4.jpg
+data/anytrek_forklift/images/train/20260527_092302_ad7c974c17fc9f0819fca6405d5ef73b.jpg
+data/anytrek_forklift/images/train/CU8C39JDIJ9X_jpg.rf.0f24471ab85b71c7333ebb7933a3933b.jpg
+data/anytrek_forklift/images/train/Q2FFU22M82PS_jpg.rf.1d13865d4efd7b3d89121545dfecff22.jpg
+data/anytrek_forklift/images/train/data_128.jpg
+data/anytrek_forklift/images/train/data_237.jpg
+data/anytrek_forklift/images/train/data_90.jpg
+data/anytrek_forklift/images/train/dataq_39.jpg
+data/anytrek_forklift/images/train/datax_15.jpg
+data/anytrek_forklift/images/train/image_111.jpg
+data/anytrek_forklift/images/train/image_215.jpg
+data/anytrek_forklift/images/train/image_319.jpg
+data/anytrek_forklift/images/train/image_99.jpg
