@@ -18,8 +18,8 @@ python detect.py \
 # python detect.py \
 #   --source data/anytrek_detect \
 #   --data data/anytrek_forklift.yaml \
-#   --float_model runs/train/yolov5s-forklift-float32/weights/best.pt \
-#   --weights ./checkpoint/8W8F/weights/best.pt \
+#   --float_model checkpoint/32W32F/weights/best-tmp.pt \
+#   --weights ./checkpoint/8W8F/weights/best-tmp.pt \
 #   --imgs 640 \
 #   --device 0 \
 #   --view-img \
@@ -29,8 +29,8 @@ python detect.py \
 # python detect.py \
 #   --source data/anytrek_detect \
 #   --data data/anytrek_forklift.yaml \
-#   --float_model runs/train/yolov5s-forklift-float32/weights/best.pt \
-#   --weights ./checkpoint/4W4F/weights/best.pt \
+#   --float_model checkpoint/32W32F/weights/best-tmp.pt \
+#   --weights ./checkpoint/4W4F/weights/best-tmp.pt \
 #   --imgs 640 \
 #   --device 0 \
 #   --view-img \
@@ -41,8 +41,8 @@ python detect.py \
 # python detect.py \
 #   --source data/anytrek_detect \
 #   --data data/anytrek_forklift.yaml \
-#   --float_model runs/train/yolov5s-forklift-float32/weights/best.pt \
-#   --weights ./checkpoint/8W8F/weights/best.pt \
+#   --float_model checkpoint/32W32F/weights/best-tmp.pt \
+#   --weights ./checkpoint/8W8F/weights/best-tmp.pt \
 #   --imgs 640 \
 #   --device 0 \
 #   --view-img \
@@ -53,8 +53,8 @@ python detect.py \
 # python detect.py \
 #   --source data/anytrek_detect \
 #   --data data/anytrek_forklift.yaml \
-#   --float_model runs/train/yolov5s-forklift-float32/weights/best.pt \
-#   --weights ./checkpoint/4W4F/weights/best.pt \
+#   --float_model checkpoint/32W32F/weights/best-tmp.pt \
+#   --weights ./checkpoint/4W4F/weights/best-tmp.pt \
 #   --imgs 640 \
 #   --device 0 \
 #   --view-img \

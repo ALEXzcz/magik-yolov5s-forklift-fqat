@@ -2,5 +2,5 @@
 
 python magik_quantize.py \
   --cfg models/yolov5s.yaml \
-  --weights ./runs/train/yolov5s-forklift-float32/weights/best.pt \
+  --weights ./checkpoint/32W32F/weights/best-tmp.pt \
   --bit 8

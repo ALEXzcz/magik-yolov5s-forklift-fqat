@@ -5,7 +5,7 @@ sed -ri 's/(target_device" : ")[^"]*/\1T33/' magik_quantize.py
 # 4bit .pt -> .onnx
 python detect.py \
   --source data/images/bus.jpg \
-  --float_model checkpoint/32W32F/weights/best.pt \
+  --float_model checkpoint/32W32F/weights/best-tmp.pt \
   --weights checkpoint/4W4F/weights/best-tmp.pt \
   --imgs 640 \
   --device 0 \

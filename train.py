@@ -122,7 +122,8 @@ def train(hyp, opt, device, callbacks):  # hyp is path/to/hyp.yaml or hyp dictio
         ckpt = torch.load(weights, map_location='cpu')  # load checkpoint to CPU to avoid CUDA memory leak
         model = Model(cfg or ckpt['model'].yaml, ch=3, nc=nc, anchors=hyp.get('anchors')).to(device)  # create
         csd = ckpt['ema' if ckpt.get('ema') else 'model'].float().state_dict()  # checkpoint state_dict as FP32
-        model.load_state_dict(csd)  # load
+        csd = intersect_dicts(csd, model.state_dict(), exclude=['anchor'])  # keep only matching keys/shapes
+        model.load_state_dict(csd, strict=False)  # load compatible pretrained weights
         if opt.bit < 32:
             magik_quantizer = get_magik_quantizer(opt.bit)
             model.eval()
