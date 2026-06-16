@@ -23,7 +23,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Compare GT labels with detect.py predicted labels.")
     parser.add_argument(
         "--gt-dir",
-        default="data/anytrek_detect_labels",
+        default="data/anytrek_detect/labels",
         help="Ground-truth YOLO label directory.",
     )
     parser.add_argument(

@@ -1,7 +1,7 @@
 #for detect single img
 # float
 python detect.py \
-  --source data/anytrek_detect \
+  --source data/anytrek_detect/images \
   --data data/anytrek_forklift.yaml \
   --float_model checkpoint/32W32F/weights/best-tmp.pt \
   --weights checkpoint/32W32F/weights/best-tmp.pt \
@@ -16,7 +16,7 @@ python detect.py \
 
 # 8bit
 # python detect.py \
-#   --source data/anytrek_detect \
+#   --source data/anytrek_detect/images \
 #   --data data/anytrek_forklift.yaml \
 #   --float_model checkpoint/32W32F/weights/best-tmp.pt \
 #   --weights ./checkpoint/8W8F/weights/best-tmp.pt \
@@ -27,7 +27,7 @@ python detect.py \
 
 # 4bit
 # python detect.py \
-#   --source data/anytrek_detect \
+#   --source data/anytrek_detect/images \
 #   --data data/anytrek_forklift.yaml \
 #   --float_model checkpoint/32W32F/weights/best-tmp.pt \
 #   --weights ./checkpoint/4W4F/weights/best-tmp.pt \
@@ -39,7 +39,7 @@ python detect.py \
 #for onnx:
 # 8bit
 # python detect.py \
-#   --source data/anytrek_detect \
+#   --source data/anytrek_detect/images \
 #   --data data/anytrek_forklift.yaml \
 #   --float_model checkpoint/32W32F/weights/best-tmp.pt \
 #   --weights ./checkpoint/8W8F/weights/best-tmp.pt \
@@ -51,7 +51,7 @@ python detect.py \
 
 # 4bit
 # python detect.py \
-#   --source data/anytrek_detect \
+#   --source data/anytrek_detect/images \
 #   --data data/anytrek_forklift.yaml \
 #   --float_model checkpoint/32W32F/weights/best-tmp.pt \
 #   --weights ./checkpoint/4W4F/weights/best-tmp.pt \
